@@ -1,81 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CAS Immobilier - Korhogo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      color: #000;
-    }
-    header {
-      background-color: #004080;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .logo {
-      max-width: 150px;
-    }
-    .section {
-      padding: 20px;
-      background-color: white;
-      margin: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .services ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-    .contact {
-      background-color: #e0f0ff;
-      text-align: center;
-      font-size: 18px;
-    }
-    .contact p {
-      margin: 10px 0;
-    }
-    footer {
-      background-color: #004080;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAS Immobilier - Korhogo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #000;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .map-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>C.A.S entreprise & services immobiliers</h1>
+        <p>Korhogo - Côte d’Ivoire</p>
+    </header>
 
-  <header>
-    <img src="https://i.imgur.com/9x6bsQN.png" alt="Logo CAS" class="logo"><br>
-    <h1>CAS Entreprise & Services Immobiliers</h1>
-    <p>KORHOGO</p>
-  </header>
+    <section>
+        <h2>Nos services</h2>
+        <ul>
+            <li>Vente de terrains (résidentiels, commerciaux...)</li>
+            <li>Construction & BTP</li>
+            <li>Conseils immobiliers</li>
+            <li>Commerce général</li>
+            <li>Matériaux de construction</li>
+        </ul>
+    </section>
 
-  <div class="section services">
-    <h2>Nos services</h2>
-    <ul>
-      <li>Gestion immobilière</li>
-      <li>Vente de terrains à Nabodjelikaha, Moréviné, Tioro, Napié, Takali, Bounakaha, Logomon, Katoumoro, Premafolo, Kasirimé et dans toute la ville de Korhogo</li>
-      <li>Conseil immobilier</li>
-      <li>Commerce général</li>
-      <li>BTP</li>
-    </ul>
-  </div>
+    <section class="map-container">
+        <h2>Nous trouver</h2>
+        <p>Bureau situé à Korhogo, quartier Belle Ville, à côté de l’école primaire Belle Ville.</p>
+        <iframe src="https://www.google.com/maps?q=Korhogo,+Côte+d'Ivoire&output=embed" allowfullscreen></iframe>
+    </section>
 
-  <div class="section contact">
-    <h2>Contact</h2>
-    <p><strong>Adresse :</strong> Belle Ville, à côté de l’école primaire Belle Ville</p>
-    <p><strong>Téléphone :</strong> 07 79 72 34 66</p>
-  </div>
-
-  <footer>
-    &copy; 2025 CAS Immobilier - Tous droits réservés
-  </footer>
-
+    <footer>
+        <p>Contact WhatsApp : 07 79 72 34 66</p>
+        <p>&copy; 2025 C.A.S entreprise & services immobiliers</p>
+    </footer>
 </body>
 </html>
